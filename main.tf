@@ -2,7 +2,7 @@
 
 provider "newrelic" {
   api_key = var.api_key
-  account_id = var.account_id
+  account_id = "2508259"
   region = "Staging"
 
   alias = "staging"
@@ -10,7 +10,7 @@ provider "newrelic" {
 
 
 data "newrelic_application" "web_portal" {
-      name = "Web Portal"
+  name = "WebPortal"
 }
 
 resource "newrelic_alert_policy" "golden_signal_policy" {
