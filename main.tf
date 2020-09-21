@@ -2,10 +2,7 @@
 
 provider "newrelic" {
   api_key = var.api_key
-  account_id = "2508259"
-  region = "Staging"
-
-  alias = "staging"
+  account_id = 2508259
 }
 
 
