@@ -1,19 +1,12 @@
-variable "aws_region" {
-  type    = string
-  default = "us-west-1"
+variable “api_key” {
+      description = “The New Relic API key”
+      type = string
 }
 
-variable "db_table_name" {
-  type    = string
-  default = "terraform-learn"
+variable “account_id” {
+      description = “The account id”
+      type = string
 }
 
-variable "db_read_capacity" {
-  type    = number
-  default = 1
-}
 
-variable "db_write_capacity" {
-  type    = number
-  default = 1
-}
+
