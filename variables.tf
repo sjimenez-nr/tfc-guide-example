@@ -1,10 +1,8 @@
-variable “api_key” {
-      description = “The New Relic API key”
+variable "api_key" {
       type = string
 }
 
-variable “account_id” {
-      description = “The account id”
+variable "account_id" {
       type = string
 }
 
